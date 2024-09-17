@@ -1,0 +1,84 @@
+Project Overview
+This project focuses on analyzing a real-world dataset to enhance supply chain efficiency and address key challenges in shipment and inventory management. As the lead data analyst for Just In Time, my role involved identifying inefficiencies and developing interactive dashboards to inform business stakeholders of potential problems and recommend structural improvements.
+
+Methodology
+Business Problem Analysis
+The goal is to develop an interactive dashboard that provides insights into the company's operations, focusing on improving supply chain efficiency.
+
+Approach:
+
+Descriptive, exploratory, and diagnostic analysis.
+Utilize Python for data preprocessing and exploratory data analysis (EDA).
+Leverage Power BI for creating dynamic, user-friendly dashboards.
+Dashboards Created:
+
+Sales Manager Dashboard: Tracks customer demand, sales, profits, orders, and top-performing products.
+Inventory Manager Dashboard: Manages inventory flow, storage, and order fulfillment.
+Shipping Manager Dashboard: Monitors shipping operations, including delays, locations, and shipment modes.
+Tools Used:
+Python: Data cleaning, EDA, and inventory segmentation.
+Power BI: Creating interactive and insightful dashboards.
+Data Preprocessing
+The dataset consists of three tables: orders and shipments, inventory, and fulfillment. Key information includes customer details, orders, shipments, and warehouse inventory.
+
+Steps Taken:
+Dropped irrelevant columns.
+Standardized data types.
+Cleansed data of inconsistencies (e.g., special characters, missing values).
+Resolved discrepancies between order and inventory product names.
+Addressed outliers in shipping times and negative values.
+Feature Engineering:
+Created datetime and shipment features (e.g., on-time vs. late shipments).
+Developed performance metrics like Net Sales, Unit Price, Profit Margin, and Storage Costs.
+Exploratory Data Analysis (EDA)
+Key Areas of Focus:
+Business Performance: Analyzing net sales, profits, and changes over time.
+Customer Behavior: Trends and patterns in purchasing habits and demand stability.
+Product Analysis: Evaluating the most popular and profitable product categories.
+Inventory Management: Examining warehouse inventory, fulfillment rates, and storage costs.
+Shipment Analysis: Studying delivery performance and late shipment rates across product categories.
+Key Findings
+Revenue Decline: Despite strong business performance with $5.5M in net sales, the company saw a sharp decline in orders and profit in Q4 2017 due to the absence of previously best-selling items.
+Customer Behavior Shift: Although overall demand was stable, customer preferences changed significantly.
+Supply Chain Disruption: A potential supply chain incident led to a notable drop in revenue, inventory, and storage costs.
+Late Shipments: High late shipment rates revealed inefficiencies in the delivery system, impacting customer loyalty.
+Hypothesis Testing
+Problem Statement:
+From 2015 to Q3 2017, the company had stable revenue, primarily from key product categories such as Apparel, Golf, and Fanshop. In Q4 2017, revenue dropped sharply due to a potential supply chain disruption.
+
+Hypotheses:
+Customer Preference Shift: Did changing customer behavior drive this revenue decline?
+Supplier Issues: Were suppliers unable to meet demand on time?
+Product Line Change: Did the company intentionally alter its product offerings, removing best-sellers?
+Delayed Shipments: Did high late shipment rates damage customer retention?
+Inventory Segmentation
+ABC-XYZ Segmentation:
+Inventory was segmented using the ABC-XYZ method to prioritize products based on sales contribution and demand variability.
+
+ABC: Segmented based on value contribution to total sales.
+A: Top 80% of net sales.
+B: 15% of sales.
+C: Bottom 5% of sales.
+XYZ: Segmented based on demand volatility.
+X: Stable demand.
+Y: Moderate demand fluctuations.
+Z: Irregular demand.
+Recommendations
+Revenue and Profit Recovery:
+
+Focus on XA and YA segments (high-demand, key revenue products) by redesigning the supply chain and sourcing new suppliers.
+Investigate and resolve supply chain disruptions to prevent future issues.
+Growth Opportunities:
+
+Explore growth in XB and XC segments through market research and demand forecasting.
+Optimize inventory management and lead times for these product lines.
+Cost Optimization:
+
+For YB, YC, ZB, ZC segments, reduce or eliminate low-demand inventory to minimize storage costs.
+Demand Forecasting:
+
+Implement demand forecasting models to optimize reorder points, safety stock levels, and mitigate stockouts or overstock issues.
+Supply Chain Optimization:
+
+Improve shipment efficiency by optimizing transportation routes (e.g., cross-docking) and collaborating with local logistics firms.
+Consider establishing a strategic warehouse in a logistics hub like Singapore to enhance international shipping operations.
